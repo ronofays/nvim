@@ -48,7 +48,7 @@ return packer.startup(function(use)
   use 'hrsh7th/vim-vsnip'
   -- Tree-sitter'
   use 'nvim-treesitter/nvim-treesitter'
-  
+  use 'lewis6991/spellsitter.nvim'
 
 end)
 

@@ -166,7 +166,8 @@ require('nvim-treesitter.configs').setup {
   }
 }
 
-
+-- Spellsitter Plugin Setup
+require('spellsitter').setup()
 
 -- Colorscheme
 
