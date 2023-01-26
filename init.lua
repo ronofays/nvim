@@ -14,6 +14,12 @@ set tabstop=4               " number of columns occupied by a tab character
 set expandtab               " convert tabs to white space
 set shiftwidth=4            " width for autoindents
 set softtabstop=4           " see multiple spaces as tabstops so <BS> does the right thing
+
+" Spell checker
+set spelllang=en
+set spellsuggest=best,9
+nnoremap <silent> <F11> :set spell!<cr>
+
 " Colorscheme
 set background=dark
 " colorscheme deus
@@ -166,8 +172,6 @@ require('nvim-treesitter.configs').setup {
   }
 }
 
--- Spellsitter Plugin Setup
-require('spellsitter').setup()
 
 -- Colorscheme
 
